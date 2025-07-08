@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.dark .navbar-zoomin {
+  background-color: #1f1f1f;
+}
+
+body.dark .card,
+body.dark .hero-card {
+  background-color: #1e1e1e;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.05);
+}
+
+body.dark .nav-link,
+body.dark .navbar-brand {
+  color: #fff !important;
+}
+
+body.dark .theme-toggle {
+  color: #fff;
+}
+
+body.dark .btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+}
